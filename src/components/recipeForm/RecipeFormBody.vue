@@ -160,12 +160,12 @@ const addDirection = () => {
 };
 
 const deleteIngredient = (index) => {
-    recipeData.ingredients.splice(index, 1);
+    recipeData.value.ingredients.splice(index, 1);
     ingredientCount.value--;
 };
 
 const deleteDirection = (index) => {
-    recipeData.directions.splice(index, 1);
+    recipeData.value.directions.splice(index, 1);
     directionCount.value--;
 };
 
